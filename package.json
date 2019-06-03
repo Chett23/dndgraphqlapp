@@ -1,0 +1,29 @@
+{
+  "name": "dndgraphqlapp",
+  "version": "1.0.0",
+  "description": "dnd app using graphql api react client",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chett23/dndgraphqlapp.git"
+  },
+  "author": "Chester Hansen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chett23/dndgraphqlapp/issues"
+  },
+  "homepage": "https://github.com/Chett23/dndgraphqlapp#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.3.1"
+  }
+}
